@@ -1,0 +1,17 @@
+[package]
+name = "sigmaos-quickshell"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Project"]
+description = "Quickshell UI framework"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-quickshell"
+readme = "README.md"
+keywords = ["quickshell", "ui", "framework"]
+categories = ["gui"]
+
+[dependencies]
+sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
+
+[profile.release]
+opt-level = 3
