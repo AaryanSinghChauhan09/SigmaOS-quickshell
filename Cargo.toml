@@ -2,6 +2,8 @@
 name = "sigmaos_quickshell"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "SigmaOS quickshell component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_quickshell"
