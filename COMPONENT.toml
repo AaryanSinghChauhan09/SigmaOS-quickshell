@@ -1,6 +1,6 @@
 [component]
 name = "SigmaOS-quickshell"
 tier = 3
-description = "Rapid prototyping declarative QML and Wayland desktop widgets shell host"
+description = "Quickshell aesthetic bar for Omarchy persona with system monitoring, application launcher, and workspace management"
 contracts = ['quickshell-runtime', 'declarative-widget-host', 'wayland-surface-manager']
 upstream_inspirations = ['https://github.com/omacom/quickshell']
