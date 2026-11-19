@@ -208,4 +208,9 @@ impl Component {
     pub fn new() -> Self {
         Self { name: "SigmaOS Component" }
     }
+
+    /// Returns the component name.
+    pub fn name(&self) -> &'static str {
+        self.name
+    }
 }

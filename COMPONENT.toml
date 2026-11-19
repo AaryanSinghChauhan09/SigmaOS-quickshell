@@ -1,6 +1,17 @@
 [component]
 name = "SigmaOS-quickshell"
 tier = 3
+stability = "beta"
+language = "rust"
 description = "Quickshell aesthetic bar for Omarchy persona with system monitoring, application launcher, and workspace management"
 contracts = ['quickshell-runtime', 'declarative-widget-host', 'wayland-surface-manager']
 upstream_inspirations = ['https://github.com/omacom/quickshell']
+
+[contract]
+provides = ["quickshell-runtime", "declarative-widget-host", "wayland-surface-manager"]
+depends_on = []
+
+[maturity]
+status = "Implemented"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
