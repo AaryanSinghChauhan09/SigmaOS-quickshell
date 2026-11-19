@@ -8,3 +8,7 @@ description = "SigmaOS quickshell component inspired by Linux Mint / Omarchy / A
 [lib]
 name = "sigmaos_quickshell"
 path = "src/lib.rs"
+
+[[bin]]
+name = "sigmaos_quickshell"
+path = "src/main.rs"
