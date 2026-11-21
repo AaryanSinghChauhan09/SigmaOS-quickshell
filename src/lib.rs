@@ -8,6 +8,9 @@
 #![forbid(unsafe_code)]
 
 use std::fmt;
+/// Shell configuration management: modules, templates, hot-reload.
+pub mod sigmaquickshell;
+
 use std::collections::BTreeMap;
 
 /// Errors for `DesktopError` operations. Fail-fast: invalid input is rejected.
