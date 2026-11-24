@@ -1,6 +1,6 @@
 # fk-quickshell
 
-> Forked from omacom/quickshell (MIT). See `SIGMAOS_FORK.md`.
+> Forked from SigmaOS/quickshell (MIT). See `SIGMAOS_FORK.md`.
 See the [website](https://quickshell.outfoxxed.me) for more information
 and installation instructions.
 
